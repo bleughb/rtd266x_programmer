@@ -1,0 +1,12 @@
+Newbie to Linux here, had some issues getting this going on my laptop....Some Hints if you're using a Live CD
+
+Firstly, live CD's don't come with everything needed, 
+you may need to add the depositories to your live CD if it can't find i2c-tools
+
+Make not working
+you may need to install Make for G++
+
+sudo apt-get install build-essential g++
+
+
+Final Running, you'll need to run the command Sudo ./rtd_prog -d 1 -b backup.bin
